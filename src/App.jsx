@@ -1,5 +1,5 @@
 import { useReducer, useState } from "react";
-import Page from "./components/page";
+import Page from "./components/Page";
 import { MovieContext, ThemeContext } from "./context/MyContext";
 import { cartReducer, initialState } from "./reducers/MovieReduce";
 
@@ -15,7 +15,7 @@ function App() {
     <ThemeContext.Provider value={{ isDark, setIsDark }}>
       <MovieContext.Provider value={{ state, dispatch }}>
         <Page />
-        <ToastContainer position="bottom-right"  />
+        <ToastContainer position="bottom-right" />
       </MovieContext.Provider>
     </ThemeContext.Provider>
   );
