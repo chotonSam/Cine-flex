@@ -4,6 +4,7 @@ export default function Footer() {
       <div className="container mx-auto">
         <p className="text-center text-sm text-black/30 dark:text-[#EEEEEE] ">
           Copyright ©2024 | All rights reserved by Cine Flex
+        </p>
       </div>
     </footer>
   );
